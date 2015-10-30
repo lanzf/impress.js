@@ -6,60 +6,60 @@
 
     One step closer to learn something interesting you are...
 
-                               ____                  
-                            _.' :  `._               
-                        .-.'`.  ;   .'`.-.           
-               __      / : ___\ ;  /___ ; \      __  
+                               ____
+                            _.' :  `._
+                        .-.'`.  ;   .'`.-.
+               __      / : ___\ ;  /___ ; \      __
              ,'_ ""=-.:__;".-.";: :".-.":__;.-="" _`,
              :' `.t""=-.. '<@.`;_  ',@:` ..-=""j.' `;
-                  `:-.._J '-.-'L__ `-.-' L_..-;'     
-                    "-.__ ;  .-"  "-.  : __.-"       
-                        L ' /.======.\ ' J           
-                         "-.   "__"   .-"            
-                        __.l"-:_JL_;-";.__           
-                     .-j/'.;  ;""""  / .'\"-.        
-                   .' /:`. "-.:     .-" .';  `.      
-                .-"  / ;  "-. "-..-" .-"  :    "-.   
-             .+"-.  : :      "-.__.-"      ;-._   \  
-             ; \  `.; ;                    : : "+. ; 
-             :  ;   ; ;                    : ;  : \: 
-             ;  :   ; :                    ;:   ;  : 
-            : \  ;  :  ;                  : ;  /  :: 
-            ;  ; :   ; :                  ;   :   ;: 
-            :  :  ;  :  ;                : :  ;  : ; 
-            ;\    :   ; :                ; ;     ; ; 
-            : `."-;   :  ;              :  ;    /  ; 
-             ;    -:   ; :              ;  : .-"   : 
-             :\     \  :  ;            : \.-"      : 
-              ;`.    \  ; :            ;.'_..-=  / ; 
+                  `:-.._J '-.-'L__ `-.-' L_..-;'
+                    "-.__ ;  .-"  "-.  : __.-"
+                        L ' /.======.\ ' J
+                         "-.   "__"   .-"
+                        __.l"-:_JL_;-";.__
+                     .-j/'.;  ;""""  / .'\"-.
+                   .' /:`. "-.:     .-" .';  `.
+                .-"  / ;  "-. "-..-" .-"  :    "-.
+             .+"-.  : :      "-.__.-"      ;-._   \
+             ; \  `.; ;                    : : "+. ;
+             :  ;   ; ;                    : ;  : \:
+             ;  :   ; :                    ;:   ;  :
+            : \  ;  :  ;                  : ;  /  ::
+            ;  ; :   ; :                  ;   :   ;:
+            :  :  ;  :  ;                : :  ;  : ;
+            ;\    :   ; :                ; ;     ; ;
+            : `."-;   :  ;              :  ;    /  ;
+             ;    -:   ; :              ;  : .-"   :
+             :\     \  :  ;            : \.-"      :
+              ;`.    \  ; :            ;.'_..-=  / ;
               :  "-.  "-:  ;          :/."      .'  :
                \         \ :          ;/  __        :
                 \       .-`.\        /t-""  ":-+.   :
                  `.  .-"    `l    __/ /`. :  ; ; \  ;
-                   \   .-" .-"-.-"  .' .'j \  /   ;/ 
-                    \ / .-"   /.     .'.' ;_:'    ;  
-                     :-""-.`./-.'     /    `.___.'   
-                           \ `t  ._  /               
-                            "-.t-._:'                
+                   \   .-" .-"-.-"  .' .'j \  /   ;/
+                    \ / .-"   /.     .'.' ;_:'    ;
+                     :-""-.`./-.'     /    `.___.'
+                           \ `t  ._  /
+                            "-.t-._:'
 
 -->
 
 <!--
-    
+
     So you'd like to know how to use impress.js?
-    
+
     You've made the first, very important step - you're reading the source code.
     And that's how impress.js presentations are built - with HTML and CSS code.
-    
+
     Believe me, you need quite decent HTML and CSS skills to be able to use impress.js effectively.
     More importantly, you need to be a designer. There are no default styles or layouts for impress.js presentations.
-    
+
     You need to design and build it by hand.
-    
+
     So...
-    
+
     Would you still like to know how to use impress.js?
-    
+
 -->
 
 <html lang="en">
@@ -68,50 +68,50 @@
     <meta name="viewport" content="width=1024" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <title>impress.js | presentation tool based on the power of CSS3 transforms and transitions in modern browsers | by Bartek Szopka @bartaz</title>
-    
+
     <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
     <meta name="author" content="Bartek Szopka" />
 
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
 
     <!--
-        
+
         Impress.js doesn't depend on any external stylesheets. It adds all of the styles it needs for the
         presentation to work.
-        
+
         This style below contains styles only for demo presentation. Browse it to see how impress.js
         classes are used to style presentation steps, or how to apply fallback styles, but I don't want
         you to use them directly in your presentation.
-        
+
         Be creative, build your own. We don't really want all impress.js presentations to look the same,
         do we?
-        
+
         When creating your own presentation get rid of this file. Start from scratch, it's fun!
-        
+
     -->
     <link href="css/impress-demo.css" rel="stylesheet" />
-    
+
     <link rel="shortcut icon" href="favicon.png" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
 </head>
 
 <!--
-    
+
     Body element is used by impress.js to set some useful class names, that will allow you to detect
     the support and state of the presentation in CSS or other scripts.
-    
+
     First very useful class name is `impress-not-supported`. This class means, that browser doesn't
     support features required by impress.js, so you should apply some fallback styles in your CSS.
     It's not necessary to add it manually on this element. If the script detects that browser is not
     good enough it will add this class, but keeping it in HTML means that users without JavaScript
     will also get fallback styles.
-    
+
     When impress.js script detects that browser supports all required features, this class name will
     be removed.
-    
+
     The class name on body element also depends on currently active presentation step. More details about
     it can be found later, when `hint` element is being described.
-    
+
 -->
 <body class="impress-not-supported">
 
@@ -124,44 +124,44 @@
 </div>
 
 <!--
-    
+
     Now that's the core element used by impress.js.
-    
+
     That's the wrapper for your presentation steps. In this element all the impress.js magic happens.
     It doesn't have to be a `<div>`. Only `id` is important here as that's how the script find it.
-    
+
     You probably won't need it now, but there are some configuration options that can be set on this element.
-    
+
     To change the duration of the transition between slides use `data-transition-duration="2000"` giving it
     a number of ms. It defaults to 1000 (1s).
-    
+
     You can also control the perspective with `data-perspective="500"` giving it a number of pixels.
     It defaults to 1000. You can set it to 0 if you don't want any 3D effects.
     If you are willing to change this value make sure you understand how CSS perspective works:
     https://developer.mozilla.org/en/CSS/perspective
-    
+
     But as I said, you won't need it for now, so don't worry - there are some simple but interesting things
     right around the corner of this tag ;)
-    
+
 -->
 <div id="impress">
 
     <!--
-        
+
         Here is where interesting thing start to happen.
-        
+
         Each step of the presentation should be an element inside the `#impress` with a class name
         of `step`. These step elements are positioned, rotated and scaled by impress.js, and
         the 'camera' shows them on each step of the presentation.
-        
+
         Positioning information is passed through data attributes.
-        
+
         In the example below we only specify x and y position of the step element with `data-x="-1000"`
         and `data-y="-1500"` attributes. This means that **the center** of the element (yes, the center)
         will be positioned in point x = -1000px and y = -1500px of the presentation 'canvas'.
-        
+
         It will not be rotated or scaled.
-        
+
     -->
 
     <div id="history" class="step slide" data-x="-1000" data-y="-1500">
@@ -179,93 +179,132 @@
         Android 5.0/5.1 Lollipop<br/>
         Android 6.0 Mooncake?<br/>
     </div>
-
     <div id="bored" class="step slide" data-x="0" data-y="-1500">
         <q><a href="http://v.youku.com/v_show/id_XMTMxMjQ3ODgzNg==.html?from=y1.7-1.2" >Android <b>M</b></a></q>
         <img src="http://img1.gtimg.com/tech/pics/hv1/250/130/1904/123841000.png">
     </div>
-
-
-    <!--
-        
-        The `id` attribute of the step element is used to identify it in the URL, but it's optional.
-        If it is not defined, it will get a default value of `step-N` where N is a number of slide.
-        
-        So in the example below it'll be `step-2`.
-        
-        The hash part of the url when this step is active will be `#/step-2`.
-        
-        You can also use `#step-2` in a link, to point directly to this particular step.
-        
-        Please note, that while `#/step-2` (with slash) would also work in a link it's not recommended.
-        Using classic `id`-based links like `#step-2` makes these links usable also in fallback mode.
-        
-    -->
-    <div class="step slide" data-x="1000" data-y="-1500">
-        <q>
-            1.API <br/>
-            2.Changes <br/>
-            3.Example <br/>
+    <div class="step slide" data-x="1000" data-y="-1500" sacle="2">
+        <q> 
+            1.Changes <br/>
+            2.API <br/>
+            3.Sample <br/>
             4.Probleam <br/>
         </q>
     </div>
+    <div class="step slide" data-x="2000" data-y="-1500" sacle="2">
+        <p>权限管理<p/>
 
-    <div class="step slide" data-x="2000" data-y="-1500">
+        权限管理是 Android M 最大的改变，权限管理更加精细，并且由以前的安装时静态授权，改为现在的运行时动态授权。大家对 Android 的权限吐槽已久，Android 应该能极大的改善这方面的问题。<br/>
+        主要改变有：<br/>
+        系统设置中可以对 APP 各个权限单独控制
+        权限根据内容进行分组了
+        普通权限还是在安装时授权
+        其他权限在运行时系统弹窗授权，并且要解析使用这个权限的目的
+    对于开发者来说，需要小心处理权限相关的问题。在使用某个功能的时候，需要总是判断是否有改权限，并且通过合适的方式请求用户授权。关于 Android M 权限的处理，可以参考<a href="http://developer.android.com/preview/features/runtime-permissions.html">官方文档 <a/> 。另外，<a href="https://medium.com/ribot-labs/exploring-the-new-android-permissions-model-ba1d5d6c0610">这篇文章</a>结合图文和代码讲述了 Android M 中权限模型，比较清晰，可以参考一下。
+    </div>
+    <div class="step slide" data-x="3000" data-y="-1500" sacle="2">
+        <p>APP Linking<p/>
+        这是一个把 APP 和网页直接打通的技术，能够让 APP 能够直接来处理你的网站普通的 URL 链接，来展示你对应的网站内容。这绝对是一个值得关注的改进，Web 和 APP 之间缝隙将越来越小。这对既有网站又有 APP 的应用来说非常有利，例如知乎和淘宝等。
+
+        有点类似于之前的 APP 的 Deep link，可以通过特殊的 Schema 也可以让 APP 直接打开对应的内容。APP Linking 的特点是，只要使用传统的 URL 就可以，而且是根据 URL 的域名对应特定的 APP 的。
+
+        开发者需要做的是在 AndroidManifest.xml 做一下对应的声明即可。如果需要让系统默认用你的 APP 打开对应的 URL 的话，还需要网站配合提供 assetlinks.json。详情可以参考<a href="http://developer.android.com/preview/features/app-linking.html">这里</a>。
+    </div>
+    <div class="step slide" data-x="4000" data-y="-1500" sacle="2">
+        <p>APP 数据自动备份<p/>
+        支持 APP 数据自动备份到 Google Drive，在你换手机的时候，能够直接把 APP 的数据恢复到你的手机上，你还可以配置些数据那些数据需要或者不需要备份。而且不用写任何代码就自动实现了。详情可以参考<a href="http://developer.android.com/preview/backup/index.html">这里</a>。
+
+        然而这些对国内的开发者来说，并没有什么用。国内厂商的 ROM 有些已经有或者准备会跟上，到时候都能享受到这样的便利。
+    </div>
+    <div class="step slide" data-x="5000" data-y="-1500" sacle="2">
+        <p>指纹解锁<p/>
+        Android 官方支持指纹认证，可以用在解锁，或者任何需要验证用户的地方，例如支付。提供了新的 API FingerprintManager，让第三方 APP 来用来获得指纹认证的功能。具体使用方法可以参考这个<a href="https://github.com/googlesamples/android-FingerprintDialog">实例</a>。
+    </div>
+     <div class="step slide" data-x="6000" data-y="-1500" sacle="2">
+        <p>直接分享<p/>
+        直接分享是在 APP 内直接弹出一个选择分享到其他应用的中的对象的列表，中间省略了选择需要分享的 APP，选择“联系人”之类的操作。Android 中分享已经做得很好了，这里又更进一步简化了分享操作。如果要让你的 APP 支持被直接分享，需要实现一个 ChooserTargetService，并且实现对应的处理分享 Intent 的 Activity。具体使用可以参考<a href="http://stackoverflow.com/a/30721038/1260562">这里</a>。
+    </div>
+     <div class="step slide" data-x="7000" data-y="-1500" sacle="2">
+        <p>支持蓝牙触控笔<p/>
+        系统内置支持蓝牙触控笔，这样 Android 系统就默认支持高大上的触控笔了。并提供了 API 让你的 APP 来响应触控笔事件。
+        <p>低功耗蓝牙扫描优化<p/>
+        优化了低功耗蓝牙扫描优化的扫描。现在低功耗蓝牙的应用越来越多，很多 APP 都需要扫描设备，扫描设备是一个非常重的操作，希望这次改动，能够带来一些改善。
+    </div>
+    <div class="step slide" data-x="8000" data-y="-1500" sacle="2">
+        <p>支持主题化的 ColorStateLists<p/>
+        使用 context.getColorStateList(int id) 来获取当前主题对应的 ColorStateLists。
+    </div>
+    <div class="step slide" data-x="9000" data-y="-1500" sacle="2">
+        <p>相机 API<p/>
+        提供 API setTorchMode() 来直接开关闪光灯，并且可以监听闪光灯的开光状态，以前很多 APP 已经支持用闪光灯来做手电筒，现在官方提供 API 来做这样的事情了。
+
+        从 Android 5.0 开始，就提供了一套全新的相机 API Camera2，这里在此基础上添加了处理相关 API。
+    </div>
+    <div class="step slide" data-x="10000" data-y="-1500" sacle="2">
+        <p>其他<p/>
+        另外还有很多的改进，可以参考<a href="http://developer.android.com/preview/api-overview.html">官方概述</a>：
+
+        有语音交互 API
+        Hotspot 2.0 支持
+        4k 屏支持
+        语音和视频 API 的改进
+        Android 企业用户特性，例如多用户支持，静默安装等
+    </div>
+    <div id="changes" class="step slide" data-x="11000" data-y="-1500">
         <p>
-            <b> Fingerprint Authentication <b/>，
+            <b class="changes"> Fingerprint Authentication <sup>*</sup><b/>，
             Confirm Credential，
             App Linking，
-            Auto Backup for Apps，
+            <b class="changes">Auto Backup for Apps<sup>*</sup><b/>，
             Direct Share，
             Voice Interactions，
             Assist API，
             Adoptable Storage，
-            Notifications，
+            <b class="changes">Notifications<sup>*</sup><b/>，
             Bluetooth Stylus Support，
             Improved Bluetooth Low Energy Scanning，
             Hotspot 2.0 Release 1 Support，
-            4K Display Mode，
+            <b class="changes">4K Display Mode<sup>*</sup><b/>，
             Themeable ColorStateLists，
             Audio Features，
             Video Features，
             Camera Features，
-            Flashlight API，
-            Camera Reprocessing，
-            Android for Work Features
-        <p/>    
+            <b class="changes">Flashlight API<sup>*</sup><b/>，
+            Camera Reprocessing
+        <p/>
     </div>
 
-    <div class='step slide' data-x="3000" data-y="-1500">
+    <div class='step slide' data-x="12000" data-y="-1500">
         <p>1.android 6.0之后删除HttpClient包，添加 useLibrary 'org.apache.http.legacy'<p/>
     </div>
-    <div class='step slice' data-x="4000" data-y="-1500">
-        1.<a href="http://i.youku.com/u/UMjczOTc0NDkzNg==">Google Developers</a> 
+    <div class='step slice' data-x="14000" data-y="-1500">
+        1.<a href="http://i.youku.com/u/UMjczOTc0NDkzNg==">Google Developers</a>
     </div>
 </div>
 
 <!--
-    
+
     Hint is not related to impress.js in any way.
-    
+
     But it can show you how to use impress.js features in creative way.
-    
+
     When the presentation step is shown (selected) its element gets the class of "active" and the body element
     gets the class based on active step id `impress-on-ID` (where ID is the step's id)... It may not be
     so clear because of all these "ids" in previous sentence, so for example when the first step (the one with
     the id of `bored`) is active, body element gets a class of `impress-on-bored`.
-    
+
     This class is used by this hint below. Check CSS file to see how it's shown with delayed CSS animation when
     the first step of presentation is visible for a couple of seconds.
-    
+
     ...
-    
+
     And when it comes to this piece of JavaScript below ... kids, don't do this at home ;)
     It's just a quick and dirty workaround to get different hint text for touch devices.
     In a real world it should be at least placed in separate JS file ... and the touch content should be
     probably just hidden somewhere in HTML - not hard-coded in the script.
-    
+
     Just sayin' ;)
-    
+
 -->
 <!--
 <div class="hint">
@@ -273,99 +312,99 @@
 </div>
 -->
 <script>
-if ("ontouchstart" in document.documentElement) { 
+if ("ontouchstart" in document.documentElement) {
     document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
 }
 </script>
 
 <!--
-    
+
     Last, but not least.
-    
+
     To make all described above really work, you need to include impress.js in the page.
     I strongly encourage to minify it first.
-    
+
     In here I just include full source of the script to make it more readable.
-    
+
     You also need to call a `impress().init()` function to initialize impress.js presentation.
     And you should do it in the end of your document. Not only because it's a good practice, but also
     because it should be done when the whole document is ready.
     Of course you can wrap it in any kind of "DOM ready" event, but I was too lazy to do so ;)
-    
+
 -->
 <script src="js/impress.js"></script>
 <script>impress().init();</script>
 
 <!--
-    
+
     The `impress()` function also gives you access to the API that controls the presentation.
-    
+
     Just store the result of the call:
-    
+
         var api = impress();
-    
+
     and you will get three functions you can call:
-    
+
         `api.init()` - initializes the presentation,
         `api.next()` - moves to next step of the presentation,
         `api.prev()` - moves to previous step of the presentation,
         `api.goto( idx | id | element, [duration] )` - moves the presentation to the step given by its index number
                 id or the DOM element; second parameter can be used to define duration of the transition in ms,
                 but it's optional - if not provided default transition duration for the presentation will be used.
-    
+
     You can also simply call `impress()` again to get the API, so `impress().next()` is also allowed.
     Don't worry, it wont initialize the presentation again.
-    
+
     For some example uses of this API check the last part of the source of impress.js where the API
     is used in event handlers.
-    
+
 -->
 
 </body>
 </html>
 
 <!--
-    
+
     Now you know more or less everything you need to build your first impress.js presentation, but before
     you start...
-    
+
     Oh, you've already cloned the code from GitHub?
-    
+
     You have it open in text editor?
-    
+
     Stop right there!
-    
+
     That's not how you create awesome presentations. This is only a code. Implementation of the idea that
     first needs to grow in your mind.
-    
+
     So if you want to build great presentation take a pencil and piece of paper. And turn off the computer.
-    
+
     Sketch, draw and write. Brainstorm your ideas on a paper. Try to build a mind-map of what you'd like
     to present. It will get you closer and closer to the layout you'll build later with impress.js.
-    
+
     Get back to the code only when you have your presentation ready on a paper. It doesn't make sense to do
     it earlier, because you'll only waste your time fighting with positioning of useless points.
-    
-    If you think I'm crazy, please put your hands on a book called "Presentation Zen". It's all about 
+
+    If you think I'm crazy, please put your hands on a book called "Presentation Zen". It's all about
     creating awesome and engaging presentations.
-    
+
     Think about it. 'Cause impress.js may not help you, if you have nothing interesting to say.
-    
+
 -->
 
 <!--
-    
+
     Are you still reading this?
-    
+
     For real?
-    
+
     I'm impressed! Feel free to let me know that you got that far (I'm @bartaz on Twitter), 'cause I'd like
     to congratulate you personally :)
-    
+
     But you don't have to do it now. Take my advice and take some time off. Make yourself a cup of coffee, tea,
     or anything you like to drink. And raise a glass for me ;)
-    
+
     Cheers!
-    
+
 -->
 
